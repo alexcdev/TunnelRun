@@ -4,6 +4,7 @@ using System.Collections;
 public class SquidNav_AA : MonoBehaviour {
 	
 	public GameObject Head;
+	public GameObject Turbine;
 	
 
 	// Use this for initialization
