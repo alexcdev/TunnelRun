@@ -19,6 +19,7 @@ ModelImporter:
     4300028: body
     4300030: head
     4300032: turbine
+    4300034: bodytt
   serializedVersion: 10
   materials:
     importMaterials: 1
@@ -56,20 +57,20 @@ ModelImporter:
     //RootNode:
       data:
         first: 1
-        second: a0860100
-      data:
-        first: 4
-        second: 801a0600
-      data:
-        first: 111
-        second: 605fa900
-    body:
-      data:
-        first: 1
         second: bc860100
       data:
         first: 4
         second: 9c1a0600
+      data:
+        first: 111
+        second: 605fa900
+    bodytt:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
       data:
         first: 23
         second: 7a182300
@@ -79,121 +80,17 @@ ModelImporter:
     head:
       data:
         first: 1
-        second: ba860100
-      data:
-        first: 4
-        second: 9a1a0600
-      data:
-        first: 23
-        second: 78182300
-      data:
-        first: 33
-        second: b85a3200
-    pCylinder10:
-      data:
-        first: 1
         second: a8860100
       data:
         first: 4
         second: 881a0600
       data:
         first: 23
-        second: 66182300
+        second: 68182300
       data:
         first: 33
-        second: a65a3200
-    pCylinder11:
-      data:
-        first: 1
-        second: a6860100
-      data:
-        first: 4
-        second: 861a0600
-      data:
-        first: 23
-        second: 64182300
-      data:
-        first: 33
-        second: a45a3200
-    pCylinder12:
-      data:
-        first: 1
-        second: a4860100
-      data:
-        first: 4
-        second: 841a0600
-      data:
-        first: 23
-        second: 62182300
-      data:
-        first: 33
-        second: a25a3200
-    pCylinder13:
-      data:
-        first: 1
-        second: a2860100
-      data:
-        first: 4
-        second: 821a0600
-      data:
-        first: 23
-        second: 60182300
-      data:
-        first: 33
-        second: a05a3200
-    pCylinder3:
-      data:
-        first: 1
-        second: b8860100
-      data:
-        first: 4
-        second: 981a0600
-      data:
-        first: 23
-        second: 74182300
-      data:
-        first: 33
-        second: b45a3200
-    pCylinder4:
-      data:
-        first: 1
-        second: b4860100
-      data:
-        first: 4
-        second: 941a0600
-      data:
-        first: 23
-        second: 72182300
-      data:
-        first: 33
-        second: b25a3200
-    pCylinder5:
-      data:
-        first: 1
-        second: b2860100
-      data:
-        first: 4
-        second: 921a0600
-      data:
-        first: 23
-        second: 70182300
-      data:
-        first: 33
-        second: b05a3200
-    pCylinder6:
-      data:
-        first: 1
-        second: b0860100
-      data:
-        first: 4
-        second: 901a0600
-      data:
-        first: 23
-        second: 6e182300
-      data:
-        first: 33
-        second: ae5a3200
-    pCylinder7:
+        second: a85a3200
+    pCylinder10:
       data:
         first: 1
         second: ae860100
@@ -202,24 +99,76 @@ ModelImporter:
         second: 8e1a0600
       data:
         first: 23
-        second: 6c182300
+        second: 6e182300
       data:
         first: 33
-        second: ac5a3200
-    pCylinder8:
+        second: ae5a3200
+    pCylinder11:
       data:
         first: 1
-        second: ac860100
+        second: a2860100
       data:
         first: 4
-        second: 8c1a0600
+        second: 821a0600
       data:
         first: 23
-        second: 6a182300
+        second: 62182300
       data:
         first: 33
-        second: aa5a3200
-    pCylinder9:
+        second: a25a3200
+    pCylinder12:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    pCylinder13:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+      data:
+        first: 23
+        second: 78182300
+      data:
+        first: 33
+        second: b85a3200
+    pCylinder3:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 23
+        second: 70182300
+      data:
+        first: 33
+        second: b05a3200
+    pCylinder4:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    pCylinder5:
       data:
         first: 1
         second: aa860100
@@ -228,11 +177,24 @@ ModelImporter:
         second: 8a1a0600
       data:
         first: 23
-        second: 68182300
+        second: 6a182300
       data:
         first: 33
-        second: a85a3200
-    turbine:
+        second: aa5a3200
+    pCylinder6:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+      data:
+        first: 23
+        second: 74182300
+      data:
+        first: 33
+        second: b45a3200
+    pCylinder7:
       data:
         first: 1
         second: b6860100
@@ -245,3 +207,42 @@ ModelImporter:
       data:
         first: 33
         second: b65a3200
+    pCylinder8:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200
+    pCylinder9:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+      data:
+        first: 23
+        second: 72182300
+      data:
+        first: 33
+        second: b25a3200
+    turbine:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200

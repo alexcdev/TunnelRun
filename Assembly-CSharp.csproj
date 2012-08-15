@@ -44,7 +44,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Models\squid\SquidNav_AA.cs" />
+     <Compile Include="Assets\Scripts\CameraControl.cs" />
+     <Compile Include="Assets\Scripts\SquidControl_TestAA.cs" />
+     <Compile Include="Assets\Scripts\SquidNav_AA.cs" />
+     <Compile Include="Assets\Scripts\SquidTailMotion_AA.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
