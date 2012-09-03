@@ -14,8 +14,6 @@ public class SquidNav_AA : MonoBehaviour
 	private int numTailPieces;
 	private int frameCount;
 	
-	// right on olive 
-	// wallnut grove park
 	
 
 	// Use this for initialization
@@ -66,9 +64,6 @@ public class SquidNav_AA : MonoBehaviour
 	
 	void UpdateTailFollowMovement()
 	{
-
-		Vector3 offset = new Vector3(0,0,3);
-		
 		int tailIndex = numTailPieces-1;
 		while(tailIndex !=0)
 		{

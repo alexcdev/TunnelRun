@@ -21,9 +21,6 @@ public class SquidTailMotion_AA : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		
-		Vector3 parentPos =  parent.transform.position;
-		Vector3 parentRot =  parent.transform.rotation.eulerAngles;
 		Vector3 postDelta = new Vector3(0.0f, 0.0f, zOffset);
 		
 		this.transform.position = this.parent.transform.position + postDelta;

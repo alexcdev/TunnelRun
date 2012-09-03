@@ -45,9 +45,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraControl.cs" />
+     <Compile Include="Assets\Scripts\Game\GameStart.cs" />
      <Compile Include="Assets\Scripts\SquidControl_TestAA.cs" />
      <Compile Include="Assets\Scripts\SquidNav_AA.cs" />
+     <Compile Include="Assets\Scripts\SquidNav_AB.cs" />
      <Compile Include="Assets\Scripts\SquidTailMotion_AA.cs" />
+     <Compile Include="Assets\Scripts\Tubinetest.cs" />
      <Compile Include="Assets\Scripts\circularMotion.cs" />
      <None Include="Assets\MyShader.shader" />
   </ItemGroup>
