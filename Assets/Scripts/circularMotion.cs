@@ -14,7 +14,7 @@ public class circularMotion : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		numTailPieces = 10;
+		numTailPieces = 20;
 		frameDelay = 0;
 		
 		tailPieces = new GameObject[numTailPieces];
@@ -41,13 +41,11 @@ public class circularMotion : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		
-		
-		
-		int radius = 50;
+
+		int radius = 100;
 		int verticalScale = 5;
 		
-		float cosY = Mathf.Cos(UnityEngine.Time.time*4);
+		float cosY = Mathf.Cos(UnityEngine.Time.time*8);
 		float cos = Mathf.Cos(UnityEngine.Time.time);
 		float sin = Mathf.Sin(UnityEngine.Time.time);
 		
@@ -78,14 +76,14 @@ public class circularMotion : MonoBehaviour
 			if(i==0)
 			{
 				tailPieces[i].transform.forward = this.transform.position-tailPieces[i].transform.position;
-				tailPieces[i].transform.position = this.transform.position + tailPieces[i].transform.forward * -2;
+				tailPieces[i].transform.position = this.transform.position + tailPieces[i].transform.forward * -1.555511f;
 				
 			}
 			else
 			{
 				tailPieces[i].transform.forward = lookAtPositions[i-1] - lookAtPositions[i];
 				tailPieces[i].transform.position = lookAtPositions[i] + tailPieces[i-1].transform.forward*-2;
-				Vector3 scale = new Vector3(tailPieces[i-1].transform.localScale.x * .95f,tailPieces[i-1].transform.localScale.y * .95f, tailPieces[i-1].transform.localScale.z * 1.1f);
+				Vector3 scale = new Vector3(tailPieces[i-1].transform.localScale.x * .95f,tailPieces[i-1].transform.localScale.y * .95f, tailPieces[i-1].transform.localScale.z * 1.051515f);
 				tailPieces[i].transform.localScale = scale;
 				
 			}
