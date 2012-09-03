@@ -9,7 +9,7 @@ public class CameraControl : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		Squid = Instantiate(Squid) as GameObject;
+		
 	}
 	
 	// Update is called once per frame
