@@ -107,7 +107,7 @@ public class SquidNav_AB : MonoBehaviour
 	{
 		int radius = 50;
 		
-		float cosY = Mathf.Cos(UnityEngine.Time.time*4);
+		float cosY = Mathf.Cos(UnityEngine.Time.time*2);
 		float cos = Mathf.Cos(UnityEngine.Time.time*.1f);
 		float sin = Mathf.Sin(UnityEngine.Time.time*.1f);
 		
@@ -117,3 +117,4 @@ public class SquidNav_AB : MonoBehaviour
 	
 
 }
+ 
